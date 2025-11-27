@@ -265,12 +265,6 @@ const WorkerProfile = () => {
 
               <div className="space-y-3">
                 <h2 className="text-xl font-semibold mb-3">Contact Information</h2>
-                {profile.phone && (
-                  <div className="flex items-center gap-3">
-                    <Phone className="h-5 w-5 text-primary" />
-                    <span className="text-base">{profile.phone}</span>
-                  </div>
-                )}
                 {profile.address && (
                   <div className="flex items-center gap-3">
                     <MapPin className="h-5 w-5 text-destructive" />
